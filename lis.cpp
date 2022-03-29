@@ -30,7 +30,7 @@ int main()
             if(arr[j]<arr[i])
             {
                 cout<<"hoise";
-                if(max(arr[j],arr[i]))
+                if(max(length[j]+1,length[i])) //modification needed
                 {
                     cout<<"__HA__";
                     length[i]=length[j]+1;
